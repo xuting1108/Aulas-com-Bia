@@ -1,0 +1,7 @@
+dias_carnaval = 1
+cont = 0
+while dias_carnaval <= 5:
+	dinheiro_lanche = int(input('gastei durante o carnaval; '))
+	cont += dinheiro_lanche
+	dias_carnaval += 1
+print(cont)
